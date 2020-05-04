@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="212188" started-at="2020-05-03T15:53:59Z" finished-at="2020-05-03T15:57:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="212188" started-at="2020-05-03T15:53:59Z" finished-at="2020-05-03T15:57:31Z">
+      <class name="com.postman.qa.testcases.PersonalWorkspaceTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="setup" is-config="true" duration-ms="6760" started-at="2020-05-03T15:53:59Z" finished-at="2020-05-03T15:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="loginToApplication" duration-ms="9884" started-at="2020-05-03T15:54:06Z" finished-at="2020-05-03T15:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="createWorkspaceFromDashboard()[pri:1, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="createWorkspaceFromDashboard" duration-ms="8100" started-at="2020-05-03T15:54:16Z" finished-at="2020-05-03T15:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWorkspaceFromDashboard -->
+        <test-method status="PASS" signature="updateWorkspaceCreated()[pri:2, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="updateWorkspaceCreated" duration-ms="15817" started-at="2020-05-03T15:54:24Z" finished-at="2020-05-03T15:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateWorkspaceCreated -->
+        <test-method status="PASS" signature="deleteWorkspaceCreated()[pri:3, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="deleteWorkspaceCreated" duration-ms="42663" started-at="2020-05-03T15:54:40Z" finished-at="2020-05-03T15:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteWorkspaceCreated -->
+        <test-method status="PASS" signature="createWorkspaceFromDropDown()[pri:4, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="createWorkspaceFromDropDown" duration-ms="6846" started-at="2020-05-03T15:55:22Z" finished-at="2020-05-03T15:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWorkspaceFromDropDown -->
+        <test-method status="PASS" signature="searchWorkspaceFromDropDown()[pri:5, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="searchWorkspaceFromDropDown" duration-ms="1684" started-at="2020-05-03T15:55:29Z" finished-at="2020-05-03T15:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWorkspaceFromDropDown -->
+        <test-method status="PASS" signature="createDuplicateWorkspace()[pri:6, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="createDuplicateWorkspace" duration-ms="10424" started-at="2020-05-03T15:55:31Z" finished-at="2020-05-03T15:55:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDuplicateWorkspace -->
+        <test-method status="PASS" signature="deleteDefaultWorkspaceCreated()[pri:7, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="deleteDefaultWorkspaceCreated" duration-ms="12591" started-at="2020-05-03T15:55:41Z" finished-at="2020-05-03T15:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDefaultWorkspaceCreated -->
+        <test-method status="PASS" signature="cancelWSCreation()[pri:8, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="cancelWSCreation" duration-ms="37022" started-at="2020-05-03T15:55:54Z" finished-at="2020-05-03T15:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelWSCreation -->
+        <test-method status="PASS" signature="cancelWSUpdation()[pri:9, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="cancelWSUpdation" duration-ms="10993" started-at="2020-05-03T15:56:31Z" finished-at="2020-05-03T15:56:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelWSUpdation -->
+        <test-method status="PASS" signature="cancelWSDeletion()[pri:10, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="cancelWSDeletion" duration-ms="48559" started-at="2020-05-03T15:56:42Z" finished-at="2020-05-03T15:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelWSDeletion -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.postman.qa.testcases.PersonalWorkspaceTests@1bce4f0a]" name="closeBrowser" is-config="true" duration-ms="805" started-at="2020-05-03T15:57:30Z" finished-at="2020-05-03T15:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.postman.qa.testcases.PersonalWorkspaceTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

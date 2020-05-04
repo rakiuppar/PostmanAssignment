@@ -1,0 +1,5 @@
+We can run the tests in 2 ways.
+
+1. Open "TestNG.xml", Right click, Run As TestNG Test.
+
+2. Goto 'src\test\java\com\postman\qa\testcases", Open "PersonalWorkspaceTests.java", Right click, Run As TestNG Test.
